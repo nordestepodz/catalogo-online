@@ -48,13 +48,6 @@ body::-webkit-scrollbar-thumb{
 #navBar #navContent #logos .logo-2{
     width: 190px;
 }
-#navBar #navContent #icons{
-    display: flex;
-}
-#navBar #navContent #icons .hamburger-button{
-    width: 26px;
-    cursor: pointer;
-}
 #navBar #navContent .searchBar-2{
     display: none;
 }
