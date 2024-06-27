@@ -95,24 +95,24 @@ emojiAlternator();
 const warning = document.getElementById("warning");
 const warningContent = document.getElementById("warningContent");
 const closeButtonWarning = document.getElementsByClassName("close-button")[0];
-//setTimeout(function(){
-//    warning.style.display = "block";
-//    setTimeout(function(){
-//        warning.style.opacity = "1";
-//        setTimeout(function(){
-//            warningContent.style.top = "50%";
-//            document.getElementsByTagName("body")[0].style.overflow = "hidden";
-//        }, 400);
-//    }, 500);
-//}, 3000);
+setTimeout(function(){
+    warning.style.display = "block";
+    setTimeout(function(){
+        warning.style.opacity = "1";
+        setTimeout(function(){
+            warningContent.style.top = "50%";
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+        }, 400);
+    }, 500);
+}, 3000);
 // CLOSE BUTTON WARNING
-//closeButtonWarning.addEventListener("click", function(){
-//    warningContent.style.top = "-100%";
-//    setTimeout(function(){
-//        warning.style.opacity = "0";
-//        setTimeout(function(){
-//            warning.style.display = "none";
-//            document.getElementsByTagName("body")[0].style.overflow = "visible";
-//        }, 400);
-//    }, 300);
-//});
+closeButtonWarning.addEventListener("click", function(){
+    warningContent.style.top = "-100%";
+    setTimeout(function(){
+        warning.style.opacity = "0";
+        setTimeout(function(){
+            warning.style.display = "none";
+            document.getElementsByTagName("body")[0].style.overflow = "visible";
+        }, 400);
+    }, 300);
+});

@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb{
 }
 #navBar #navContent{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 #navBar #navContent #logos{
