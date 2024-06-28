@@ -235,7 +235,6 @@ body::-webkit-scrollbar-thumb{
     color: #05FF00;
 }
 #catalog #catalogContent .product .productContent .desc{
-    list-style: none;
     list-style-position: inside;
     color: #fff;
     font-weight: 700;
