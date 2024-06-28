@@ -357,6 +357,9 @@ footer #socials a img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+#warningContent .warningImg{
+    width: 128px;
+}
 #warningContent h2{
     font-weight: 900;
     font-size: 32px;
