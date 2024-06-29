@@ -369,7 +369,7 @@ footer #socials a img{
     width: 30px;
     height: 2px;
     background: #ffffff55;
-    border-radius: 50%;
+    border-radius: 2px;
     margin: 10px auto;
 }
 #warningContent p{
