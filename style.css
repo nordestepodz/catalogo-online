@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb{
 }
 /* NAV */
 #navBar{
-    padding: 15px;
+    padding: 13px;
     background: #ff08fa;
 }
 #navBar #navContent{
@@ -104,11 +104,6 @@ body::-webkit-scrollbar-thumb{
 @media (min-width: 768px){
     #navBar #navContent .searchBar-2{
         width: 40%;
-    }
-}
-@media (min-width: 1280px){
-    #navBar{
-        padding: 20px;
     }
 }
 @media (min-width: 1400px){
