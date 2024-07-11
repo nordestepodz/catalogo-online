@@ -33,6 +33,13 @@ search1.addEventListener("keyup", function(){
             document.getElementById("text-slider").style.borderTop = "1px solid #000";
         }
     }
+    for(i = 0; i < nomeProdutos.length; i++){ 
+        if(pesquisaProduto){
+            document.getElementsByClassName("searchBar-1")[0].style.boxShadow = "-2px 2px 0px #000";
+        }else if(!pesquisaProduto){
+            document.getElementsByClassName("searchBar-1")[0].style.boxShadow = "-3px 3px 0px #000";
+        }
+    }
 });
 //OCULTANDO HEADER SLIDER QUANDO TEM ALGO NO SEARCH1
 search1.addEventListener("keyup", function(){
@@ -73,6 +80,13 @@ search2.addEventListener("keyup", function(){
         }else if(catalog.getBoundingClientRect().height > 100){
             noResults.style.display = "none";
             document.getElementById("text-slider").style.borderTop = "1px solid #000";
+        }
+    }
+    for(i = 0; i < nomeProdutos.length; i++){ 
+        if(pesquisaProduto){
+            document.getElementsByClassName("searchBar-2")[0].style.boxShadow = "-1.5px 1.5px 0px #000";
+        }else if(!pesquisaProduto){
+            document.getElementsByClassName("searchBar-2")[0].style.boxShadow = "-3px 3px 0px #000";
         }
     }
 });

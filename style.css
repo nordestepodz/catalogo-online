@@ -65,10 +65,7 @@ body::-webkit-scrollbar-thumb{
     box-shadow: -3px 3px 0px #000;
 }
 #navBar #searchingBox .searchBar-1::placeholder{
-    color: #000;
-}
-#navBar #searchingBox .searchBar-1:hover{
-    box-shadow: -2px 2px 0px #000;
+    color: #646464;
 }
 #navBar #searchingBox .searchBar-1:focus{
     outline: none;
@@ -90,15 +87,12 @@ body::-webkit-scrollbar-thumb{
         font-weight: 600;
         text-align: center;
     }
-    #navBar #navContent .searchBar-2:hover{
-        box-shadow: -1.5px 1.5px 0px #000;
-    }
     #navBar #navContent .searchBar-2:focus{
         outline: none;
     }
     #navBar #navContent .searchBar-2::placeholder{
         text-transform: initial;
-        color: #000;
+        color: #646464;
     }
 }
 @media (min-width: 768px){
