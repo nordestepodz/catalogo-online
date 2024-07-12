@@ -329,16 +329,6 @@ footer #footerContent p{
     font-size: 15px;
     color: #fff;
 }
-footer #footerContent p:nth-last-child(1){
-    font-size: 13px;
-    font-weight: 600;
-}
-footer #footerContent p:nth-last-child(1) > a{
-    font-size: 12px;
-    font-weight: 600;
-    text-decoration: none;
-    color: currentColor;
-}
 footer #socials{
     display: flex;
     flex-wrap: nowrap;
