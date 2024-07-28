@@ -253,7 +253,7 @@ body::-webkit-scrollbar-thumb{
     line-height: 15px;
 }
 #catalog #catalogContent .product .productContent .desc li::marker{
-    content: '•ㅤ';
+    content: '• ';
 }
 #catalog #catalogContent .product .productContent > a{
     display: block;
