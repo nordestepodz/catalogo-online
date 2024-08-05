@@ -3,7 +3,7 @@
 const imgs = document.getElementsByClassName("sliderImg");
 var flyer0 = imgs[0].setAttribute("src", "como-faco-para-meu-pod-durar-mais.png");
 var flyer1 = imgs[1].setAttribute("src", "ignite-v80-flyer.png");
-var flyer2 = imgs[2].setAttribute("src", "elfbar-bc10000-flyer.png");
+var flyer2 = imgs[2].setAttribute("src", "elfbar-te5000-flyer.jpg");
 var flyer3 = imgs[3].setAttribute("src", "zomo-juices-sobremesas.png");
 var flyer4 = imgs[4].setAttribute("src", "como-faco-para-meu-pod-durar-mais.png");
 //LINKS
@@ -14,7 +14,7 @@ imgs[1].addEventListener("click", function(){
     location.href = "https://api.whatsapp.com/send?phone=5574981559545&text=Ol%C3%A1,%20vim%20pelo%20site!%20%F0%9F%91%80%0AGostaria%20de%20saber%20se%20o%20IGNITE%20V80%20ainda%20est%C3%A1%20dispon%C3%ADvel?";
 });
 imgs[2].addEventListener("click", function(){
-    location.href = "https://api.whatsapp.com/send?phone=5574981559545&text=Ol%C3%A1,%20vim%20pelo%20site!%20%F0%9F%91%80%0AGostaria%20de%20saber%20se%20o%20ELFBAR%20BC10000%20ainda%20est%C3%A1%20dispon%C3%ADvel?";
+    location.href = "https://api.whatsapp.com/send?phone=5574981559545&text=Ol%C3%A1,%20vim%20pelo%20site!%20%F0%9F%91%80%0AGostaria%20de%20saber%20se%20o%20%20ELFBAR%20TE5000%20ainda%20est%C3%A1%20dispon%C3%ADvel?";
 });
 imgs[3].addEventListener("click", function(){
     location.href = "https://api.whatsapp.com/send?phone=5574981559545&text=Ol%C3%A1,%20vim%20pelo%20site!%20%F0%9F%91%80%0AGostaria%20de%20saber%20se%20os%20JUICES%20ainda%20est%C3%A3o%20dispon%C3%ADvel?";
@@ -107,7 +107,7 @@ setTimeout(function(){
 }, 3000);
 // CLOSE BUTTON WARNING
 closeButtonWarning.addEventListener("click", function(){
-    warningContent.style.top = "200%";
+    warningContent.style.top = "-100%";
     setTimeout(function(){
         warning.style.opacity = "0";
         setTimeout(function(){
