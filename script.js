@@ -81,10 +81,10 @@ headerSlider();
 //TÍTULO DO SITE ANIMADO
 function emojiAlternator(){
     setTimeout(function(){
-        document.getElementsByTagName("head")[0].children[21].innerHTML = "𝗡𝗢𝗥𝗗𝗘𝗦𝗧𝗘 𝗣𝗢𝗗𝗭 &#127797; • Catálogo Online e Interativo";
+        document.getElementsByTagName("head")[0].children[21].innerHTML = "𝗡𝗢𝗣𝗭 &#127797; • Catálogo Online e Interativo";
     }, 1500);
     setTimeout(function(){
-        document.getElementsByTagName("head")[0].children[21].innerHTML = "𝗡𝗢𝗥𝗗𝗘𝗦𝗧𝗘 𝗣𝗢𝗗𝗭 &#128142; • Catálogo Online e Interativo";
+        document.getElementsByTagName("head")[0].children[21].innerHTML = "𝗡𝗢𝗣𝗭 &#128142; • Catálogo Online e Interativo";
         emojiAlternator();
     }, 3000);
 }
