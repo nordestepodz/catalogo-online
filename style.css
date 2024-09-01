@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb{
 /* NAV */
 #navBar{
     padding: 13px;
-    background: #ff08fa;
+    background: #cc00ff;
 }
 #navBar #navContent{
     display: flex;
@@ -139,7 +139,7 @@ body::-webkit-scrollbar-thumb{
 #text-slider{
     display: flex;
     flex-direction: row;
-    background: #ff08fa;
+    background: #ff1495;
     border-top: 1px solid #000;
     border-bottom: 4px solid #000;
     overflow: hidden;
